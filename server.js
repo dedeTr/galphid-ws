@@ -66,7 +66,6 @@ const joinRoom = (clientName, codeRoom, client) => {
         cArr.push(client)
         clients[codeRoom] = cArr
         let players = cArr.length
-        // players = cArr.map(e => "_"+e.alias)
         cArr.forEach(e => {
             players += "_"+e.alias
         });
