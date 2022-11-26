@@ -2,11 +2,11 @@
   "name": "galphid-ws",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "serverjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node index.js"
+    "start": "node serverjs"
   },
   "keywords": [],
   "author": "",
