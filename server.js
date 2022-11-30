@@ -9,13 +9,13 @@ var roomHost = new Object
 
 // ------------------------ webSocket Server functions
 function handleConnection(client, request) {
-	// console.log("New Connection");        // you have a new client
+	console.log("New Connection");
 	// clients.push(client);    // add this client to the clients array
 
 	function endClient() {
 		// var position = clients.indexOf(client);
 		// clients.splice(position, 1);
-		// console.log("connection closed");
+		console.log("connection closed");
 	}
 
     const onMessage = (messageClient) => {
